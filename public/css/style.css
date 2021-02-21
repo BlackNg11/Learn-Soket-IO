@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 :root {
 	--dark-color-a: #667aff;
@@ -15,7 +15,7 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	background: var(--light-color);
 	margin: 20px;
@@ -96,6 +96,7 @@ a {
 	margin-bottom: 15px;
 	background-color: var(--light-color);
 	border-radius: 5px;
+	overflow-wrap: break-word;
 }
 
 .chat-messages .message .meta {
@@ -119,7 +120,7 @@ a {
 	display: flex;
 }
 
-.chat-form-container input[type='text'] {
+.chat-form-container input[type="text"] {
 	font-size: 16px;
 	padding: 5px;
 	height: 40px;
@@ -159,7 +160,7 @@ a {
 	margin-bottom: 5px;
 }
 
-.join-main input[type='text'] {
+.join-main input[type="text"] {
 	font-size: 16px;
 	padding: 5px;
 	height: 40px;
